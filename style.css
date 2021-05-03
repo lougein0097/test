@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+body {
+	background-color: lightgray;
+../images/bgimage.jpg../images/bgimage.jpg../images/bgimage.jpg	background-size: cover;
+	background-image: url(../images/bgimage.jpg);
+	background-size: cover;
+	color: #FAFAFA;
+	font-family: andika;
+	font-style: normal;
+	font-weight: 400;
+	background-attachment: fixed;
+}
+footer {
+	position: fixed;
+	width: 100%;
+	margin-bottom: px;
+	float: none;
+	clear: both;
+	bottom: 0%;
+	height: 40px;
+	left: 0px;
+	right: 0px;
+	background-image: -webkit-repeating-linear-gradient(270deg,rgba(255,255,255,0.00),rgba(0,0,0,1.00) 100%);
+	background-image: -moz-repeating-linear-gradient(270deg,rgba(255,255,255,0.00),rgba(0,0,0,1.00) 100%);
+	background-image: -o-repeating-linear-gradient(270deg,rgba(255,255,255,0.00),rgba(0,0,0,1.00) 100%);
+	background-image: repeating-linear-gradient(180deg,rgba(255,255,255,0.00),rgba(0,0,0,1.00) 100%);
+	text-align: center;
+}
+header {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 42px;
+}
+h1   {
+	font-family: nova-slim;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5em;
+	text-align: center;
+}
+body nav a {
+	color: rgba(20,0,255,1.00);
+	font-family: paytone-one;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	height: px;
+}
+.navlist {
+	list-style-type: none;
+	background-color: rgba(255,255,255,1.00);
+	overflow-x: hidden;
+}
+.navlistitem  {
+	float: left;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+h3 {
+	font-family: andika;
+	font-style: normal;
+	font-weight: 400;
+	font-size: large;
+}
+
+section {
+	background-color: #FFFFFF;
+	color: #000000;
+	border-radius: 10px;
+	width: 40%;
+	margin-left: 1%;
+	margin-right: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: right;
+}
+
+aside {
+	width: 50%;
+	float: left;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+	color: rgba(250,0,255,1.00);
+}
+
+
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+	color: rgba(250,0,255,1.00);
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+	color: rgba(250,0,255,1.00);
+}
+h3 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: large;
+	color: rgba(177,0,153,1.00);
+}
+a {
+	color: rgba(234,172,255,1.00);
+}
+
+@media (max-width: 600px){
+aside {
+	width: 95%;
+	float: none;
+}
+section {
+	background-color: #FFFFFF;
+	color: #000000;
+	border-radius: 10px;
+	width: 90%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: none;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+header {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 42px;
+}
+h1 {
+	font-family: paytone-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.5em;
+	text-align: center;
+}
+}
+
+@media screen{
+}
+
+@media (max-height:600px){
+header {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 42px;
+}
+}
+.logo {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
